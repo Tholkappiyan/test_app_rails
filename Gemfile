@@ -18,6 +18,8 @@ group :assets do
   # gem 'therubyracer', :platforms => :ruby
 
   gem 'uglifier', '>= 1.0.3'
+  gem "execjs", ">=1.4.0"
+  gem 'therubyracer'
 end
 
 gem 'jquery-rails'
