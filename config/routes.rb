@@ -1,6 +1,7 @@
 TestApp::Application.routes.draw do
 
-  root to: 'test_pages#home'
+  # root to: 'test_pages#home'
+  get "test_pages/home"
   get "test_pages/one"
   get "test_pages/two"
 
